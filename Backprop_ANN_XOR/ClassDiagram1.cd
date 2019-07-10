@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Backprop_ANN_XOR.frmMain">
+    <Position X="2.75" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>frmMain.cs</FileName>
+      <HashCode>QAoBTAGFQCEBACAUAVCBABQKCICIEFsCAARMXEABgAE=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NeuralNetwork" />
+      <Property Name="frmNeuralNetworkConfig" />
+      <Property Name="NN_Trainer_XOR" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="NeuralNetwork" Type="Backprop_ANN_XOR.NeuralNetwork">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.822" Y="0.696" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="frmNeuralNetworkConfig" Type="Backprop_ANN_XOR.frmNeuralNetworkConfig">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="3.017" Y="1.582" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="NN_Trainer_XOR" Type="Backprop_ANN_XOR.NN_Trainer_XOR">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-2.893" Y="3.008" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Class>
+  <Class Name="Backprop_ANN_XOR.frmNeuralNetworkConfig">
+    <Position X="0.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>frmNeuralNetworkConfig.cs</FileName>
+      <HashCode>AAgAQAAAACAAAAAAAACAAAQCAAAAABAEAAAAAAABgAE=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NeuralNetwork" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="NeuralNetwork" Type="Backprop_ANN_XOR.NeuralNetwork">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.851" Y="2.391" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Class>
+  <Class Name="Backprop_ANN_XOR.NeuralNetwork">
+    <Position X="8.25" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>NeuralNetwork.cs</FileName>
+      <HashCode>JBgAACACEAhAAAIAAAACQACAEAAAAJAAAA0AIYQEAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SigmoidActivationFunction" />
+      <Property Name="NeuralNetworkEventArgs" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Backprop_ANN_XOR.NeuralNetwork.ChangeHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>NeuralNetwork.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <AssociationLine Name="NeuralNetworkEventArgs" Type="Backprop_ANN_XOR.NeuralNetworkEventArgs">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="3.559" Y="6.378" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="SigmoidActivationFunction" Type="Backprop_ANN_XOR.SigmoidActivationFunction">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="2.479" Y="1.589" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Class>
+  <Class Name="Backprop_ANN_XOR.NeuralNetworkEventArgs">
+    <Position X="5.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>NeuralNetwork.cs</FileName>
+      <HashCode>BAAAAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Backprop_ANN_XOR.NN_Trainer_XOR">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>NN_Trainer_XOR.cs</FileName>
+      <HashCode>AAAAQAgAAAhQAAQAAAAAQAQCAAAAAABAAAAACAQCAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TrainerEventArgs" />
+      <Property Name="NeuralNetwork" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Backprop_ANN_XOR.NN_Trainer_XOR.ChangeHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>NN_Trainer_XOR.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <AssociationLine Name="TrainerEventArgs" Type="Backprop_ANN_XOR.TrainerEventArgs">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.695" Y="3.807" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="NeuralNetwork" Type="Backprop_ANN_XOR.NeuralNetwork">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="3.058" Y="-2.64" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Class>
+  <Class Name="Backprop_ANN_XOR.TrainerEventArgs">
+    <Position X="4.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>NN_Trainer_XOR.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backprop_ANN_XOR.Program">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Program.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="frmMain" />
+    </ShowAsAssociation>
+    <AssociationLine Name="frmMain" Type="Backprop_ANN_XOR.frmMain">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-3.238" Y="-1.758" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Class>
+  <Class Name="Backprop_ANN_XOR.SigmoidActivationFunction">
+    <Position X="8.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>SigmoidActivationFunction.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>
