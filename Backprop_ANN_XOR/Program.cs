@@ -8,6 +8,7 @@ namespace Backprop_ANN_XOR
     /// <summary>
     /// This program is now under version control using git!
     /// It is configured to build using TeamCity
+    /// A build will automatically take place on new check-ins
     /// Simply provides the main entry point for the application.
     /// Creates a new frmMain form
     /// </summary>
