@@ -6,6 +6,8 @@ namespace Backprop_ANN_XOR
 {
     #region Program CLASS
     /// <summary>
+    /// This program is now under version control using git!
+    /// It is configured to build using TeamCity
     /// Simply provides the main entry point for the application.
     /// Creates a new frmMain form
     /// </summary>
